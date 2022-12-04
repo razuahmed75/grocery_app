@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "15231425813",
+    "project_id": "shopappstripe",
+    "storage_bucket": "shopappstripe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15231425813:android:d001f22485822ff0fa1d1c",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15231425813-rnjd3ik0ob8l6grd17nhs80hki76m32f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-ci3buXFxHKLi-llnN1Z60BQFkcC3Zhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15231425813-rnjd3ik0ob8l6grd17nhs80hki76m32f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
