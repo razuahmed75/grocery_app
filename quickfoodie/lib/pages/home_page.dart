@@ -5,7 +5,6 @@ import 'package:myapp/model/cart_model.dart';
 import 'package:myapp/pages/cart_pages.dart';
 import 'package:provider/provider.dart';
 import 'package:get/get.dart';
-import 'package:badges/badges.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({super.key});
@@ -19,19 +18,13 @@ class HomePage extends StatelessWidget {
           onPressed: () => Get.to(() => CartPage()),
           backgroundColor: Colors.black,
           child: Badge(
-              badgeContent: Text(
+              label: Text(
                 value.cartItems.length.toString(),
-                style: GoogleFonts.abel(
-                    color: value.cartItems.length == 0
-                        ? Colors.black
-                        : Colors.white),
+                style: GoogleFonts.abel(color: Colors.white),
               ),
-              position: BadgePosition.topEnd(
-                top: value.cartItems.length == 0 ? -13 : -18,
-                end: value.cartItems.length == 0 ? -13 : -18,
-              ),
-              badgeColor:
-                  value.cartItems.length == 0 ? Colors.black : Colors.red,
+              isLabelVisible: value.cartItems.length == 0 ? false : true,
+              alignment: AlignmentDirectional(25, -20),
+              backgroundColor: Colors.red,
               child: Icon(Icons.shopping_bag)),
         );
       })),
