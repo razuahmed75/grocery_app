@@ -1,6 +1,7 @@
 # Output
 
 
+![Grocery_App](https://user-images.githubusercontent.com/99271821/210342876-a861d2de-3293-49ce-a61f-ba4736af0067.png)
 
 
-![Grocery_App](https://user-images.githubusercontent.com/99271821/210341709-ee85f467-2cc8-4796-9e1e-8ee1be8ea23a.png)
+
