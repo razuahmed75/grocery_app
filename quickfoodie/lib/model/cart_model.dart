@@ -15,12 +15,7 @@ class CartModel extends ChangeNotifier {
   List _cartItems = [];
   get shopItems => _shopItems;
   get cartItems => _cartItems;
-  // /* home page theke click krle ekhane add hbe bcoz,... */
-  // /*ekhane sei index chole ase & index jodi 1 hoy tahle seta _shopItems er
-  //   list theke data add krte thakbe[ei bisoyTa ektu technically hoy]*/
 
-  // /* ekhn data Show korate chaile cartItems theke nite hbe. bcoz,...*/
-  // /* dataGulu ekhn ei list er mddhe chole asbe*/
   addItemToCart(int index) {
     _cartItems.add(_shopItems[index]);
     notifyListeners();
